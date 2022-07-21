@@ -1,0 +1,9 @@
+﻿<h2>Введите данные пользователя:</h2>
+
+@using(@Html.BeginForm()){
+    @Html.Label("name", "Введите свое имя: ")
+    @Html.TextBox("name")<br />
+    @Html.Label("age", "Введите свой возраст: ")
+    @Html.TextBox("age")<br />
+    <button>Отправить</button>
+}
