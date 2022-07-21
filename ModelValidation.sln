@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-ServerSide", "1-ServerSid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ClientSide", "2-ClientSide\2-ClientSide.csproj", "{7B54C456-DB96-496D-81B8-D66C3098BEED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-ValidationAttributes", "3-ValidationAttributes\3-ValidationAttributes.csproj", "{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7B54C456-DB96-496D-81B8-D66C3098BEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B54C456-DB96-496D-81B8-D66C3098BEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B54C456-DB96-496D-81B8-D66C3098BEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
