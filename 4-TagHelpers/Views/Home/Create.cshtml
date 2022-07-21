@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Create new Person";
+}
+@model Person
+<h1>@ViewData["Title"]</h1>
+
+<h2>Введите данные пользователя:</h2>
+<form method="post">
+    <div>
+        <div class="col-md-4 position-relative p-3">
+            <lable asp-for="Name" class="form-label">Введите имя пользователя: </lable>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="col-md-4 position-relative p-3">
+            <lable asp-for="Email" class="form-label">Введите Email пользователя: </lable>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="col-md-4 position-relative p-3">
+            <lable asp-for="Password">Введите пароль пользователя: </lable>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div class="col-md-4 position-relative p-3">
+            <lable asp-for="PasswordConfirm">Повторите пароль пользователя: </lable>
+            <input asp-for="PasswordConfirm" class="form-control" />
+            <span asp-validation-for=PasswordConfirm></span>
+        </div>
+        <div class="col-md-4 position-relative p-3">
+            <lable asp-for="Age">Введите возраст пользователя: </lable>
+            <input asp-for="Age" class="form-control" />
+            <span asp-validation-for=Age></span>
+        </div>
+        <div class="col-md-4 position-relative p-3">
+            <button class="btn btn-success">Отправить</button>
+        </div>
+        <div  asp-validation-summary=ModelOnly class="col-md-4 position-relative p-3"></div>
+    </div>
+</form>
