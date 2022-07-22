@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2-ClientSide", "2-ClientSid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ValidationAttributes", "3-ValidationAttributes\3-ValidationAttributes.csproj", "{29B8E22D-9213-47C6-9DEA-4683CBD5AA3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-TagHelpers", "4-TagHelpers\4-TagHelpers.csproj", "{F7AA179B-F9D0-439D-9404-1C8E1D9A2187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-TagHelpers", "4-TagHelpers\4-TagHelpers.csproj", "{F7AA179B-F9D0-439D-9404-1C8E1D9A2187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-CreatingValidation", "5-CreatingValidation\5-CreatingValidation.csproj", "{24BB4A20-4F45-4C8C-BB84-0DF824C76E53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F7AA179B-F9D0-439D-9404-1C8E1D9A2187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7AA179B-F9D0-439D-9404-1C8E1D9A2187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7AA179B-F9D0-439D-9404-1C8E1D9A2187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BB4A20-4F45-4C8C-BB84-0DF824C76E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BB4A20-4F45-4C8C-BB84-0DF824C76E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BB4A20-4F45-4C8C-BB84-0DF824C76E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BB4A20-4F45-4C8C-BB84-0DF824C76E53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
