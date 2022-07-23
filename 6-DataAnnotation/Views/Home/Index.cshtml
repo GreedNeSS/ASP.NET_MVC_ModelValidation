@@ -1,0 +1,11 @@
+﻿@model _6_DataAnnotation.Models.Person
+
+<h2>Main Page</h2>
+@if (!string.IsNullOrEmpty(@Model.Name))
+{
+    @Html.DisplayForModel()
+}
+else
+{
+   <a asp-action=Create>Создать пользователя</a>     
+}
